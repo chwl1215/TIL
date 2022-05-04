@@ -1,10 +1,9 @@
-package ClassConfirmEx;
+package javaAPI;
 
 public class Car {
-	class Tire {
-		
-	}
-	static class Engine {
-		
+	public String model;
+	
+	public Car(String model) {
+		this.model=model;
 	}
 }
